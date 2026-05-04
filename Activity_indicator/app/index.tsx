@@ -21,5 +21,6 @@ export default function Index() {
       style={{ width: 50, height: 500 }}
      />
     </View>
+    
   );
 }
