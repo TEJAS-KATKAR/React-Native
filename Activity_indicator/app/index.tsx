@@ -20,7 +20,7 @@ export default function Index() {
       loop
       style={{ width: 50, height: 500 }}
      />
+     
     </View>
-    
   );
 }
