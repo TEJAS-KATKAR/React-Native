@@ -8,8 +8,8 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 
 const Header = () => {
   return (
-    <View style={{width:'100%', height:230,borderRadius: 35, backgroundColor: '#e56363',}} >
-      <View style={{marginTop: 50, flexDirection: 'column', justifyContent: 'center',}} >
+    <View style={{width:'100%', height:225,borderRadius: 35, backgroundColor: '#e56363',}} >
+      <View style={{marginTop: 50, flexDirection: 'column',}} >
           <View style={{marginLeft: 30,  }}><Text style={{color:'#ebebeb'  }}>Location</Text></View>
           
             <View style={{flexDirection:'row',marginLeft: 34, alignItems:'center', marginTop: 5,}}>
@@ -22,12 +22,12 @@ const Header = () => {
             </View>
 
 
-            <View style={{marginTop: 4,flexDirection:'row',gap:10}} >
-                <View style={{backgroundColor: 'white', marginLeft: 30, marginTop: 20, borderRadius: 10, paddingHorizontal: 15, paddingVertical: 10, alignItems: 'center',flexDirection:'row'}} >
-                  <Fontisto name="zoom" size={24} color="#e56363" />
-                  <TextInput placeholder='Search' style={{backgroundColor: 'white',fontSize:18, }} />
+            <View style={{flexDirection:'row',gap:10, marginHorizontal: 30,  marginTop: 30,}} >
+                <View style={{width: '84%',backgroundColor: 'white', borderRadius: 10, paddingRight: 110,paddingLeft: 10, alignItems: 'center',flexDirection:'row',  }} >
+                  <Fontisto name="zoom" size={24} color="#e56363" style={{marginHorizontal: 6,}} />
+                  <TextInput placeholder='Search' style={{backgroundColor: 'white',fontSize:16,fontWeight:'semibold' }} />
                 </View> 
-                <View style={{backgroundColor: 'white', marginRight: 30, marginTop: 20, borderRadius: 10, paddingHorizontal: 15, paddingVertical: 10, alignItems: 'center',justifyContent:'center'}} >
+                <View style={{backgroundColor: 'white',  borderRadius: 10, paddingHorizontal: 8, paddingVertical: 6, alignItems: 'center',justifyContent:'center'}} >
                   <Ionicons name="options-outline" size={35} color="#e56363"  />
                 </View>
             </View>               
