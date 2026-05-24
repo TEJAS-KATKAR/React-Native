@@ -12,9 +12,9 @@ const Header = () => {
       <View style={{marginTop: 50, flexDirection: 'column',}} >
           <View style={{marginLeft: 30,  }}><Text style={{color:'#ebebeb'  }}>Location</Text></View>
           
-            <View style={{flexDirection:'row',marginLeft: 34, alignItems:'center', marginTop: 5,}}>
+            <View style={{flexDirection:'row',marginLeft: 34, alignItems:'center', marginTop: 3,}}>
               <FontAwesome6 name="location-dot" size={20} color="white" />
-              <Text style={{color:'#ebebeb', fontSize: 16, marginLeft: 5,}}>New York, USA</Text>
+              <Text style={{color:'#ebebeb', fontSize: 16, marginLeft: 5,fontWeight: 300,}}>New York, USA</Text>
               <Entypo name="chevron-down" size={24} color="white" />
               <View style={{marginLeft:'auto', marginRight: 30,backgroundColor: '#e89090', padding: 8, borderRadius: 10,}}>
                 <MaterialIcons name="notifications" size={24} color="white" />
@@ -22,7 +22,7 @@ const Header = () => {
             </View>
 
 
-            <View style={{flexDirection:'row',gap:10, marginHorizontal: 30,  marginTop: 30,}} >
+            <View style={{flexDirection:'row',gap:10, marginHorizontal: 30,  marginTop: 32,}} >
                 <View style={{width: '84%',backgroundColor: 'white', borderRadius: 10, paddingRight: 110,paddingLeft: 10, alignItems: 'center',flexDirection:'row',  }} >
                   <Fontisto name="zoom" size={24} color="#e56363" style={{marginHorizontal: 6,}} />
                   <TextInput placeholder='Search' style={{backgroundColor: 'white',fontSize:16,fontWeight:'semibold' }} />
